@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+
+
+img{
+  height: 300px;
+  width: 250px;
+  border-radius: 100%;
+}
+body{
+  padding-top: 50px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  color: rgb(48, 48, 48);
+  border-top: 5px solid #27a822;
+  border-bottom: 5px solid #27A822;
+}
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    /*margin-right: 6px;*/
+}
+time{
+  content: '—';
+  margin-right: 6px;
+}
+address{
+  display: inline;
+}
+h1 {
+    line-height: 120%;
+    font-size: 250%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #27A822;
+}
+h2 {
+    font-size: 112%;
+    font-weight: bold;
+    line-height: 150%;
+    margin-bottom: 0;
+    color: inherit;
+}
+footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 10pt;
+}
+#padd_plz{
+  padding-top: 50px;
+}
+.main-page{
+  text-align: center;
+}
+
+.left-container{
+  padding-left: 100px;
+}
+.right-container{
+  padding-left: 100px;
+}
+.education{
+  padding-top: 50px;
+}
+.hobbies{
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 1000px){
+    .left-container{
+      text-align: center;
+      padding-left: 0px;
+    }
+    .right-container{
+      padding-left: 50px;
+    }
+    .employment{
+      padding-top: 50px;
+    }
+    .education{
+      padding-top: 50px;
+    }
+    .hobbies{
+      padding-top: 50px;
+    }
+}
